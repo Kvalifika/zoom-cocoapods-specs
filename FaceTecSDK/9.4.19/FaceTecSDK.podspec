@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.homepage     = "https://kvalifika.com"
     spec.license      = 'MIT'
     spec.author       = "Kvalifika"
-    spec.platform     = :ios, "11.0"
+    spec.platform     = :ios, "12.0"
     spec.source       = { :http => "https://kvalifika-ios.s3.eu-central-1.amazonaws.com/facetec/FaceTecSDK-9.4.19.xcframework.zip" }
     spec.framework    = "FaceTecSDK"
     spec.vendored_frameworks = "FaceTecSDK.xcframework"
